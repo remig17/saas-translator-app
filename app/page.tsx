@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
+export default async function Home() {
   const DemoGif = "/DemoGif.gif";
+
   return (
     <main className="">
       <div className="relative isolate pt-14 dark:bg-gray-900">
